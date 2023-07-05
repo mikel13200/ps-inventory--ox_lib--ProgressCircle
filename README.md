@@ -79,3 +79,10 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
     else return end
 end)
 ```
+
+Go to **fxmanifest.lua** and add
+```
+'@ox_lib/init.lua',
+```
+Done .
+
