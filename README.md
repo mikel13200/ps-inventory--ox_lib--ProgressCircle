@@ -84,9 +84,12 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
 end)
 ```
 
+
 Go to **fxmanifest.lua** and add
 ```
 '@ox_lib/init.lua',
 ```
+should look like this 
+![](https://cdn.discordapp.com/attachments/1125944882284998816/1125945509497012224/image.png)
 Done .
 
