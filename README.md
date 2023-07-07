@@ -17,7 +17,7 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
             if lib.progressActive() then
             QBCore.Functions.Notify('Not Accessible', "error", 5000) return else
             lib.progressCircle({
-                duration = 600,
+                duration = math.random(Config.Progressbar.minT, Config.Progressbar.maxT),
                 label = 'Opening Inventory..',
                 position = 'bottom',
                 useWhileDead = false,
